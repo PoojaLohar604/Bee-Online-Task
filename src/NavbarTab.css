@@ -1,0 +1,97 @@
+.navbar-content {
+  padding: 8px 150px;
+  background-color: #fff2f3;
+}
+.navbar-brand {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  color: #252b42;
+  letter-spacing: 0.10000000149011612px;
+}
+.offcanvas-title {
+  font-family: Montserrat !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #252b42 !important;
+  letter-spacing: 0.10000000149011612px !important;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 50px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+  letter-spacing: 0.20000000298023224px;
+}
+.navbar-nav-end {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar-nav-end .nav-link,
+.navbar-nav-end button {
+  margin-left: 0px;
+}
+.navbar-nav-end button {
+  background-color: #96BB7C;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px ;
+  gap: 10px;
+  opacity: 0px;
+}
+.navbar-nav-end button:hover {
+  background-color: #fff2f3;
+  color: #96bb7c;
+  border: 1px solid #96bb7c;
+}
+.navbar-nav-end button svg {
+  width: 15px;
+  height: 15px;
+}
+.navbar-nav-end,
+.nav-link {
+  color: #96bb7c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.20000000298023224px;
+}
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    margin-left: 0px;
+    align-items: start;
+  }
+  .navbar-nav-end {
+    display: block;
+  }
+  .navbar-nav-end button {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .navbar-nav-end,
+  .nav-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .navbar-content {
+    padding: 3%;
+  }
+}

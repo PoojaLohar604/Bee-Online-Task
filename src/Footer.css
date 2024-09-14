@@ -1,0 +1,113 @@
+.footer-page-container {
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+.footer-main-content {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-between;
+  align-items: start;
+}
+ul {
+  margin-top: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #737373;
+}
+li {
+  list-style: none;
+  margin-top: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+}
+.info h5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.10000000149011612px;
+  color: #252b42;
+}
+.info ul {
+  padding-left: 0;
+}
+.info ul li {
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+  letter-spacing: 0.20000000298023224px;
+}
+.get-in-touch ul li {
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+ ul li svg {
+    font-size: 25px;
+    font-weight: bold;
+    color:#96BB7C;
+}
+.copy-right{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-div{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+}
+.icon-div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.icon-div svg{
+    font-size: 25px;
+    color: #96BB7C;
+}
+@media (max-width:992px) {
+    .footer-main-content{
+        grid-template-columns: auto auto ;
+    }
+    .info h5{
+        margin-top: 20px;
+    }
+}
+@media (max-width:768px) {
+    .copy-right{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .icon-div{
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+@media (max-width:576px) {
+    .footer-main-content{
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .info {
+        text-align: center;
+        align-items: center;
+      }
+      .info ul li {
+        text-align: center;
+      }
+}
